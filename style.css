@@ -9,6 +9,7 @@
     min-height: 400px;
     margin: 0 auto;
     border: 1px solid black;
+    position: relative;
 }
 
 .header{
@@ -101,4 +102,378 @@
     background: white;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 250px 2fr;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.nav{
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: repeat(7, 80px);
+    background: #efecf9;
+    justify-content: center;
+    border-radius: 10px;
+    column-gap: 10px;
+    
+}
+
+.navItem{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    background: #efecf9;
+    transition: all 0.3s ease;
+    background-color: #efecf9; 
+    font-size: 17px;
+}
+
+.navItem:hover {
+  background-color: #dbd8e5; 
+  color: rgb(109 100 237);             
+  
+
+
+}
+
+.Item1{
+    padding: 0 20px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWhvdXNlLWljb24gbHVjaWRlLWhvdXNlIj48cGF0aCBkPSJNMTUgMjF2LThhMSAxIDAgMCAwLTEtMWgtNGExIDEgMCAwIDAtMSAxdjgiLz48cGF0aCBkPSJNMyAxMGEyIDIgMCAwIDEgLjcwOS0xLjUyOGw3LTZhMiAyIDAgMCAxIDIuNTgyIDBsNyA2QTIgMiAwIDAgMSAyMSAxMHY5YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yeiIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+}
+
+.Item2{
+    padding: 0 5px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvb2stb3Blbi1pY29uIGx1Y2lkZS1ib29rLW9wZW4iPjxwYXRoIGQ9Ik0xMiA3djE0Ii8+PHBhdGggZD0iTTMgMThhMSAxIDAgMCAxLTEtMVY0YTEgMSAwIDAgMSAxLTFoNWE0IDQgMCAwIDEgNCA0IDQgNCAwIDAgMSA0LTRoNWExIDEgMCAwIDEgMSAxdjEzYTEgMSAwIDAgMS0xIDFoLTZhMyAzIDAgMCAwLTMgMyAzIDMgMCAwIDAtMy0zeiIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+
+.Item3{
+    padding: 0 30px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsaXBib2FyZC1saXN0LWljb24gbHVjaWRlLWNsaXBib2FyZC1saXN0Ij48cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI0IiB4PSI4IiB5PSIyIiByeD0iMSIgcnk9IjEiLz48cGF0aCBkPSJNMTYgNGgyYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg2YTIgMiAwIDAgMS0yLTJWNmEyIDIgMCAwIDEgMi0yaDIiLz48cGF0aCBkPSJNMTIgMTFoNCIvPjxwYXRoIGQ9Ik0xMiAxNmg0Ii8+PHBhdGggZD0iTTggMTFoLjAxIi8+PHBhdGggZD0iTTggMTZoLjAxIi8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+
+.Item4{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbGVuZGFyLWRheXMtaWNvbiBsdWNpZGUtY2FsZW5kYXItZGF5cyI+PHBhdGggZD0iTTggMnY0Ii8+PHBhdGggZD0iTTE2IDJ2NCIvPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iNCIgcng9IjIiLz48cGF0aCBkPSJNMyAxMGgxOCIvPjxwYXRoIGQ9Ik04IDE0aC4wMSIvPjxwYXRoIGQ9Ik0xMiAxNGguMDEiLz48cGF0aCBkPSJNMTYgMTRoLjAxIi8+PHBhdGggZD0iTTggMThoLjAxIi8+PHBhdGggZD0iTTEyIDE4aC4wMSIvPjxwYXRoIGQ9Ik0xNiAxOGguMDEiLz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+
+.Item5{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1lc3NhZ2UtY2lyY2xlLWljb24gbHVjaWRlLW1lc3NhZ2UtY2lyY2xlIj48cGF0aCBkPSJNMi45OTIgMTYuMzQyYTIgMiAwIDAgMSAuMDk0IDEuMTY3bC0xLjA2NSAzLjI5YTEgMSAwIDAgMCAxLjIzNiAxLjE2OGwzLjQxMy0uOTk4YTIgMiAwIDAgMSAxLjA5OS4wOTIgMTAgMTAgMCAxIDAtNC43NzctNC43MTkiLz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+
+.Item6{
+    padding: 0 10px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNldHRpbmdzLWljb24gbHVjaWRlLXNldHRpbmdzIj48cGF0aCBkPSJNOS42NzEgNC4xMzZhMi4zNCAyLjM0IDAgMCAxIDQuNjU5IDAgMi4zNCAyLjM0IDAgMCAwIDMuMzE5IDEuOTE1IDIuMzQgMi4zNCAwIDAgMSAyLjMzIDQuMDMzIDIuMzQgMi4zNCAwIDAgMCAwIDMuODMxIDIuMzQgMi4zNCAwIDAgMS0yLjMzIDQuMDMzIDIuMzQgMi4zNCAwIDAgMC0zLjMxOSAxLjkxNSAyLjM0IDIuMzQgMCAwIDEtNC42NTkgMCAyLjM0IDIuMzQgMCAwIDAtMy4zMi0xLjkxNSAyLjM0IDIuMzQgMCAwIDEtMi4zMy00LjAzMyAyLjM0IDIuMzQgMCAwIDAgMC0zLjgzMUEyLjM0IDIuMzQgMCAwIDEgNi4zNSA2LjA1MWEyLjM0IDIuMzQgMCAwIDAgMy4zMTktMS45MTUiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIzIi8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+
+.Item7{
+    padding: 0 20px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWxvZy1vdXQtaWNvbiBsdWNpZGUtbG9nLW91dCI+PHBhdGggZD0ibTE2IDE3IDUtNS01LTUiLz48cGF0aCBkPSJNMjEgMTJIOSIvPjxwYXRoIGQ9Ik05IDIxSDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoNCIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+
+}
+.mainInfo{
+    display: grid;
+    grid-template-areas: 
+                        'Section1 Section2'
+                        'mainInfoMiddleSection mainInfoMiddleSection'
+                        'Section3 Section3';
+    grid-template-columns: 55% 40%;
+    grid-template-rows: 400px 300px 300px;
+    gap: 20px;
+
+}
+
+.Section1 {
+    grid-area: Section1;
+    background: #fafafc;
+    background-image: url('./img/Welcome_logo.png');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 100%;
+    border: 1px solid #fafafc;
+    border-radius: 10px;
+}
+
+.Section1 h1{
+    font-size: 28px;
+    padding:20px 0 5px 35px;
+}
+
+.Section1 p{
+    font-size: 16px;
+    color: grey;
+    padding-left: 40px;
+}
+
+.buttonView{
+    width: 140px;
+    height: 40px;
+    margin: 230px 0 0 20px;
+    border: none;
+    background: rgb(109 100 237);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Section2{
+    grid-area: Section2;
+    background: #fafafc;
+    border: 1px solid #fafafc;
+    border-radius: 10px;
+}
+
+.Section2Title{
+    padding: 20px 0 0 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Section2Logo{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 20px;
+    background: rgb(109 100 237);
+    border-radius: 70px;
+}
+
+.Section2 h1{
+    font-size: 24px;
+    padding: 10px 0 0 40px;
+}
+
+.Section2Mail{
+    color: grey;
+    padding: 5px 0 0 40px;
+    font-size: 20px;
+}
+
+.Section2Button{
+    width: 140px;
+    height: 20px;
+    margin: 30px 0 0 40px;
+    border: none;
+    background: #e3ddf5;
+    color: rgb(109 100 237);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mainInfoMiddleSection{
+    grid-area: mainInfoMiddleSection;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    grid-template-rows: repeat(2 , 300px);
+    gap: 20px;
+}
+
+.middleSection1{
+    background: #effaf2;
+    border-radius: 10px;
+}
+
+.middleSectionTitle{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0 30px 20px;
+}
+
+.middleStatistic{
+    display: grid;
+    grid-template-columns: repeat(4 , 22%);
+    grid-template-rows: 100%;
+    justify-content: space-evenly;
+}
+
+.StatItem{
+    background: #fdfdfd;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 60px;
+    grid-template-rows: repeat(3 , 40px);
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    row-gap:10px ;
+}
+
+.statItemLogo , .statItemNumber , .statItemTitle{
+    justify-self:center ;
+    align-self: center;
+}
+
+.middleSection2{
+    background: #fdfbeb;
+    border-radius: 10px;
+    display: grid;
+    
+}
+
+.TaskTitle {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+    margin: 0 20px 0 20px;
+    row-gap: 20px;
+}
+
+.taskTitle1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.taskTitle2{
+    text-decoration: none;
+    color:rgb(109 100 237);
+    justify-self: end;
+}
+
+.TaskInfo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3 , 50px);
+    align-items: center;
+    row-gap: 10px;
+}
+
+.TaskInfoItem{
+    display: grid;
+    grid-template-columns: 20px 2fr 1fr;
+    align-items: center;
+}
+
+.TaskComplete{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 5px 0 20px;
+}
+
+.TaskTag{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.TaskCompleteTime{
+    color: grey;
+    font-size: 12px;
+}
+
+.Section3{
+    grid-area: Section3;
+    background: #f4f9ff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 60px 2fr;
+}
+
+.calendarTitle{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin:0 20px 0 20px;
+    align-items: center;
+}
+
+.calendarTitle1{
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+.calendarTitle2{
+    justify-self: end;
+    text-decoration: none;
+    color:rgb(109 100 237);
+}
+
+.calendarInfo{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    justify-content: space-between;
+    column-gap: 15px;
+    margin: 0 20px 0 20px;
+}
+
+.calendarItem{
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.calendarDay{
+    font-size: 18px;
+    align-self: center;
+    justify-self: center;
+}
+
+.calendarTask{
+    width: 80px;
+    height: 50px;
+    display: grid;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendarTaskTime{
+    margin-left: 5px;
+}
+
+.calendarTask1{
+    background: #e1e2f5;
+    color: grey;
+    border-radius: 10px;
+}
+
+.calendarTask2{
+    background: #e0f5e6;
+    color: #328249;
+    border-radius: 10px;
+}
+
+.calendarTask3{
+    background: #fef5ce;
+    color: #baac6e;
+    border-radius: 10px;
+}
+
+.calendarTask4{
+    background: #ffdcf0;
+    color: #b7769b;
+    border-radius: 10px;
+}
+
+.calendarTask5{
+    background: #f9dcde;
+    color: #ba7479;
+    border-radius: 10px;
 }
